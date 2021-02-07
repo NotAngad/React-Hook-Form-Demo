@@ -2,12 +2,15 @@ import { useForm } from "react-hook-form";
 import "./App.css";
 
 function App() {
+  // Extract the key components from useForm():
   const { register, handleSubmit, errors } = useForm();
+  // onSubmit to log the result. The result will be an object:
   const onSubmit = (data) => {
     console.log(data);
   };
   return (
     <div className="App">
+      {/* Add the handleSubmit before your onSubmit function */}
       <form className="App" onSubmit={handleSubmit(onSubmit)}>
         <h1>Sign Up</h1>
         <label>First Name:</label>
