@@ -2,3 +2,5 @@ This is a repo to demonstrate how to implement the react-hook-form which handles
 
 * Package Used : * 
 https://www.npmjs.com/package/react-hook-form
+
+![Alt Text](https://i.imgur.com/y6savDx.gif)
